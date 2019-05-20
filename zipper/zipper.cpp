@@ -34,7 +34,7 @@ namespace zipper {
 			#endif
 
 			int mode = 0;
-			int flags = Zipper::Append;
+			int flags = Zipper::Overwrite;
 
 			/* open the zip file for output */
 			if (checkFileExists(filename))
